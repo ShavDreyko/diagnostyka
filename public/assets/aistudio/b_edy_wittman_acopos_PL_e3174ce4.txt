@@ -1,0 +1,939 @@
+Teksty błędów ACOPOS
+Teksty błędów ACOPOS są opisane w następujący sposób:
+<numer błędu>: <tekst błędu>
+Informacje:	Opis dodatkowych informacji wyjściowych z komunikatem o błędzie.
+Typ danych:	Format danych
+Opis:
+dokładny opis błędu.
+Reakcja:
+Opis reakcji serwonapędu ACOPOS, który jest wyzwalany przez błąd.
+Przyczyna / Rozwiązanie:
+Opis przyczyny błędu oraz możliwości jego usunięcia.
+
+• 1: Nieprawidłowy identyfikator parametru
+• 2: Blok danych do przesłania nie jest dostępny
+• 3: Dostęp do zapisu dla parametru tylko do odczytu
+• 4: Dostęp do odczytu dla parametru tylko do zapisu
+• 8: Zainicjowano już dostęp do odczytu bloku danych
+• 9: Dostęp do zapisu bloku danych został już zainicjowany
+• 10: Nie zainicjowano dostępu do odczytu bloku danych
+• 11: Nie zainicjowano dostępu do bloku danych
+• 16: Segment danych jest już ostatnim przy odczycie bloku danych
+• 17: segment danych jest już ostatnim przy zapisywaniu bloku danych
+• 18: Segment danych nie jest jeszcze ostatnim przy odczycie bloku danych
+• 19: segment danych nie jest jeszcze ostatnim przy zapisywaniu bloku danych
+• 21: Suma kontrolna po zapisie bloku danych jest nieprawidłowa
+• 23: Niepoprawny identyfikator parametru w bloku danych (zapis bloku danych)
+• 25: Nagrywanie modułu systemu dozwolone tylko natychmiast po pobraniu
+• 27: Nie można uruchomić systemu operacyjnego (systemu operacyjnego nie ma na FPROM)
+• 40: Wartość parametru wyższa od wartości maksymalnej
+• 41: Wartość parametru wyższa od wartości maksymalnej
+• 42: Wartość parametru wyższa niż wartość maksymalna
+• 52: Wartość parametru niższa niż wartość minimalna
+• 53: Wartość parametru niższa niż wartość minimalna
+• 54: Wartość parametru niższa niż wartość minimalna
+• 64: Niepoprawny identyfikator sprzętu w module BR (zapis bloku danych)
+• 65: Wersja sprzętu w module BR jest nieprawidłowa (zapis bloku danych)
+• 66: System operacyjny na dysku jest niezgodny z istniejącą siecią
+• 67: Brak niezbędnego parametru lub jest on nieprawidłowy
+• 68: Niepoprawna długość bloku danych
+• 69: Interfejs poleceń jest zajęty
+• 70: Zbyt wysoka wartość niezbędnego parametru
+• 71: Zbyt niska wartość niezbędnego parametru
+• 72: wersja oprogramowania mniejsza niż minimalna wymagana wersja oprogramowania
+• 73: Niepoprawny format zmiennoprzecinkowy R4
+• 1001: Błąd przepełnienia FIFO
+• 1002: parametr poza prawidłowym zakresem
+• 1003: Nie można zapisać parametru, gdy kontrola pętli jest aktywna
+• 1004: Przekroczono limit czasu w monitorze sieci znak życia
+• 1005: Nie można zapisać parametru, gdy ruch jest aktywny
+• 1006: Niepoprawny parametr dla zdarzenia wyzwalającego (wejście cyfrowe + zbocze)
+• 1007: Master dla połączenia sieciowego wyłączony - jeden master już wysyła
+• 1008: Master dla sprzężenia sieciowego wyłączony - Błąd enkodera
+• 1009: Błąd podczas przydzielania pamięci
+• 1011: Wejście szybkiego zatrzymania aktywne
+• 1012: Awaria cyklicznej komunikacji sieciowej
+• 1013: Stacja nie jest dostępna do komunikacji sieciowej
+• 1014: zajęty jest interfejs poleceń sieciowych
+• 1016: Przekroczono maksymalny czas cyklu - obciążenie procesora jest zbyt duże
+• 1017: Niepoprawny identyfikator parametru dla cyklicznego dostępu do odczytu
+• 1018: Nieprawidłowy identyfikator parametru dla cyklicznego dostępu do zapisu
+• 1021: Nie można zapisać parametru: blok funkcyjny aktywny
+• 1022: Monitorowanie przekroczenia limitu czasu w cyklicznych danych do kierowania
+• 1023: Połączenie sieciowe z trybem cyklicznej komunikacji jest niedozwolone
+• 1024: Cykliczny tryb komunikacji z bieżącą konfiguracją sieci nie jest możliwy
+• 1025: Wartość parametru w połączeniu z hamulcem postojowym jest niedozwolona
+• 1026: Wartość parametru w połączeniu z modułami BEZPIECZEŃSTWA jest niedozwolona
+• 1027: Funkcja nie jest dostępna dla tego sprzętu
+• 2001: Przesyłanie danych śledzenia jest niedozwolone: Nagrywanie aktywne
+• 2003: Rozpoczęcie śledzenia niedozwolone: Nagrywanie aktywne
+• 2006: Inicjalizacja parametrów śledzenia niedozwolona: Nagrywanie aktywne
+• 4005: Nie można włączyć kontrolera: Napęd w stanie błędu
+• 4007: Przekroczono limit zatrzymania błędu opóźnienia
+• 4008: Osiągnięto dodatni wyłącznik krańcowy
+• 4009: Osiągnięto ujemny wyłącznik krańcowy
+• 4010: Nie można włączyć kontrolera: oba wyłączniki krańcowe są zamknięte
+• 4011: Nie można wyłączyć kontrolera: ruch aktywny
+• 4012: Nie można włączyć kontrolera: Brak parametrów początkowych lub jest on nieprawidłowy
+• 4014: Sterowanie dwoma enkoderami: Przekroczono limit zatrzymania różnicy pozycji
+• 5001: Pozycja docelowa przekracza dodatni limit SW
+• 5002: Pozycja docelowa przekracza ujemny limit SW
+• 5003: Osiągnięto dodatni limit SW
+• 5004: Osiągnięto ujemny limit SW
+• 5005: Początek ruchu niemożliwy: Regulator położenia nieaktywny
+• 5006: Początek ruchu niemożliwy: Oś nie jest odniesiona
+• 5010: Przesuń w poz. kierunek niemożliwy: Poz. wyłącznik krańcowy jest zamknięty
+• 5011: Przejdź w neg. kierunek niemożliwy: Neg. wyłącznik krańcowy jest zamknięty
+• 5012: Początek ruchu niemożliwy: Zatrzymanie rampy aktywne
+• 5013: Nie można włączyć trybu cyklicznej wartości zadanej: ruch aktywny
+• 5015: Początek ruchu niemożliwy: Procedura bazowania jest aktywna
+• 5016: Nie można zapisać parametru: aktywna procedura bazowania
+• 5017: Tryb procedury bazowania nie jest możliwy: Kontroler pozycji nieaktywny
+• 5018: Procedura bazowania nie jest możliwa: ruch aktywny
+• 5019: parametr bazowania poza prawidłowym zakresem
+• 5020: Procedura bazowania nie jest możliwa: oba wyłączniki krańcowe są zamknięte
+• 5021: Wyłącznik krańcowy zamknięty: brak zmiany kierunku dla tego trybu bazowania
+• 5022: Otrzymano sygnał drugiego wyłącznika krańcowego: nie znaleziono przełącznika referencyjnego
+• 5023: Otrzymano nieprawidłowy sygnał wyłącznika krańcowego dla bieżącego kierunku ruchu
+• 5024: Przerwany tryb cyklicznej wartości zadanej: brak ustawionych pozycji
+• 5025: Nie można ustawić przesunięcia bazowania z korekcją zakresu zliczania
+• 5026: Podstawowe parametry ruchu (z nadpisaniem) przekraczają wartość ograniczenia prędkości
+• 5027: Podstawowe parametry ruchu (z nadpisaniem) przekraczają wartość graniczną przyspieszenia
+• 5028: Bieżący ruch nie jest ruchem bazowym
+• 5029: Trigger ignorowany - pozostała odległość przekracza limit SW
+• 5030: Tryb procedury bazowania nie jest możliwy: Kontroler pozycji aktywny
+• 5031: Tryb procedury bazowania nie jest możliwy: Tryb cyklicznych wartości ustawionych jest wyłączony
+• 5032: Zbyt niskie przyspieszenie - droga hamowania przekracza dodatni limit SW
+• 5033: Przyspieszenie za niskie - droga hamowania przekracza ujemny limit SW
+• 5034: Procedura bazowania nie jest możliwa: Błąd enkodera
+• 5035: Nie wykryto znaków odniesienia
+• 5036: Przekroczono limit zatrzymania przyspieszenia
+• 5037: Tryb procedury bazowania nie jest możliwy: niewłaściwy typ enkodera
+• 5038: Tryb procedury bazowania nie jest możliwy: przywracanie danych jest nieprawidłowe
+• 5039: Funkcja niemożliwa: Błąd enkodera
+• 5101: Koła zębate kompensacji profilu krzywki: Przekroczono wartości graniczne
+• 5102: Zbyt wiele zmian profilu krzywki na cykl (zbyt krótki okres wzorcowy)
+• 5103: wyzwalacz Slave FIFO pełny
+• 5104: wyzwalacz Slave FIFO pusty
+• 5105: Pełny wyzwalacz FIFO pełny
+• 5106: FIFO wyzwalacza głównego pusty
+• 5107: Nie można uruchomić sprzęgła krzywkowego: parametr poza dopuszczalnym zakresem
+• 5108: Pełny wyzwalacz kompensacji FIFO
+• 5109: Pusty wyzwalacz kompensacji FIFO
+• 5110: Przerwanie sprzęgła krzywkowego: brak ustawionych pozycji cyklicznych
+• 5111: Przerwanie sprzęgła krzywkowego: błąd enkodera
+• 5112: Polecenie niedozwolone: sprzęgło profilu krzywkowego nie jest aktywne
+• 5113: Polecenie niedozwolone: Kontroler jest już aktywny
+• 5114: Nie można zapisać parametru: Aktywne sprzęgło krzywkowe
+• 5115: Komenda ponownego uruchomienia nie jest możliwa: Automat kamery nie jest aktywny
+• 5201: Nie można zapisać parametru: Aktywny bęben
+• 5202: nie Położenia przełącznika w kolejności rosnącej: Cam sterowania
+• 5300: Blok danych do przesłania nie jest dostępny
+• 5301: Uruchomienie automatycznego łączenia krzywek nie jest możliwe: parametr poza prawidłowym zakresem
+• 5302: Nie można zapisać parametru: Aktywny automat krzywki
+• 5303: dane profilu krzywki niedostępne w indeksie
+• 5304: Błąd formatowania w danych profilu kamery
+• 5311: Automat kamery: Zdarzenie prowadzi do stanu niezainicjowanego
+• 5315: Błąd pobierania: dane profilu krzywki używane przez automat kamery lub blok funkcyjny
+• 5316: Typ zdarzenia nie jest możliwy przy wejściu do narzędzi kompensacyjnych
+• 5319: Dane profilu krzywki są niedozwolone dla stanu 0
+• 5329: Nie ważne dane profilu krzywki lub wyłączonym
+• 6000: Główny czas próbkowania nie jest wielokrotnością czasu próbkowania kontrolera położenia
+• 6001: Kontroler synchronizacji: wystąpił limit czasu telegramu synchronizacji
+• 6002: Kontroler synchronizacji: przekroczona tolerancja błędu systemowej różnicy czasu
+• 6008: Kontroler jest już aktywny
+• 6011: Kontroler nie jest w trybie prędkości
+• 6014: Aktywna inicjalizacja napędu
+• 6015: Kontroler CAN: Zakłócenie magistrali CAN (licznik błędów odbierania większy 96)
+• 6016: Kontroler CAN: Zakłócenie magistrali CAN (licznik błędów transmisji większy niż 96)
+• 6017: Oprogramowanie: Watchdog aktywny
+• 6018: Sprzęt: Awaria zasilania 15 V.
+• 6019: ACOPOS: Nadprądowe
+• 6020: Sprzęt: Awaria zasilania 24 V.
+• 6021: Niski poziom na wejściu włączania sterownika
+• 6023: Zapad napięcia na wejściu włączania sterownika
+• 6024: Prąd został zablokowany przed konwersją (błąd OpSys w ABLS)
+• 6025: Temperatura została zablokowana przed konwersją (błąd OpSys w ABLS)
+• 6026: Hamulec trzymający: Przekroczenie limitu prądu stojana podczas zwalniania
+• 6027: Hamulec postojowy: Niedozwolony jest tryb ręczny
+• 6028: Hamulec trzymający: za niskie napięcie / prąd (zerwanie drutu, sprawdzić zasilanie 24 V)
+• 6029: Hamulec trzymający: sygnał sterujący włączony i stan wyjściowy wyłączony
+• 6030: Hamulec trzymający: Wyjście hamulca jest aktywne, ale w danych silnika nie wprowadzono hamulca
+• 6031: moduł systemowy został już usunięty
+• 6032: Interfejs: błąd konfiguracji FPGA
+• 6033: Rodzaj serwowzmacniacza nie jest obsługiwany przez oprogramowanie układowe ACOPOS
+• 6034: Tryb cyklicznej wartości zadanej przerwany: brak prędkości ustawionej
+• 6036: Brak lub nieprawidłowe parametry silnika
+• 6038: Ograniczenie momentu obrotowego wyższy niż maksymalny moment obrotowy silnika
+• 6040: Wersja systemu operacyjnego jest mniejsza niż dozwolona wersja minimalna
+• 6041: Wersja systemu operacyjnego jest większa niż dozwolona wersja maksymalna
+• 6042: Wersja systemu operacyjnego nie jest w dozwolonym zakresie
+• 6043: PHASING_MODE jest nieprawidłowy
+• 6044: Faza: Niepoprawny kierunek obrotu lub pozycja
+• 6045: Stopień mocy: Połączenie X5: Brak przepływu prądu
+• 6046: Faza: brak ruchu wirnika
+• 6047: Hamulec trzymający: sygnał sterujący wyłączony i status wyjścia włączony
+• 6048: Monitor ruchu hamulca trzymającego silnik: błąd pozycji zbyt duży
+• 6049: Stopień mocy: Połączenie X5: Błąd pomiaru prądu
+• 6050: Zapis parametru niedozwolony: Ustaw aktywny filtr bieżący lub filtr wycinający
+• 6051: Faza: Prędkość do wysokiej
+• 6052: Stopień mocy: strona wysoka: nadprądowa
+• 6053: Stopień mocy: strona dolna: nadprądowa
+• 6054: Stopień mocy: Nadprądowy
+• 6055: Hamulec trzymający: niskie napięcie
+• 6056: Hamulec trzymający: niski prąd
+• 6057: Kontroler pętli położenia: Błąd enkodera obciążenia
+• 6058: Enable1: Zwolnienie napięcia
+• 6059: Enable2: Zwolnienie napięcia
+• 6060: Stopień mocy: przekroczona prędkość graniczna
+• 6061: CTRL Regulator prędkości: przekroczona prędkość graniczna
+• 6062: CTRL Regulator prędkości: Przekroczono limit zatrzymania błędu prędkości
+• 6063: Hamulec trzymający: napięcie zewnętrzne na wyjściu powyżej 24 V.
+• 6064: Nie można zapisać parametru: Kontrola powtarzania aktywna
+• 6065: Inicjalizacja aktywna
+• 6066: Przepełnienie indeksu podczas inicjalizacji macierzy
+• 6067: Błąd podczas inicjalizacji układu dynamicznego
+• 7012: Enkoder: bit błędu hiperface
+• 7013: Enkoder: komunikat o stanie
+• 7014: Enkoder: błąd CRC podczas przesyłania parametrów
+• 7015: Enkoder: Błąd przekroczenia limitu czasu podczas przesyłania parametru
+• 7016: Enkoder: Błąd zajętości podczas przesyłania parametrów
+• 7017: Enkoder: Błąd podczas odczytu parametru enkodera
+• 7020: Dane OEM: Błąd zapisu danych
+• 7021: Enkoder: Błąd przekroczenia czasu podczas odczytu pozycji bezwzględnej
+• 7022: Enkoder: Inicjalizacja jest aktywna
+• 7023: Enkoder: Transfer parametrów jest aktywny
+• 7029: Enkoder: zbyt mała amplituda sygnału przyrostowego
+• 7030: Enkoder: Zbyt duża amplituda sygnału przyrostowego
+• 7031: Enkoder: Zbyt duża amplituda sygnału przyrostowego (zakłócenia)
+• 7032: Enkoder: zbyt mała amplituda sygnału przyrostowego (zakłócenia, brak połączenia)
+• 7033: Enkoder: Zbyt duży krok przyrostowy
+• 7036: Enkoder: Nieprawidłowy identyfikator interfejsu (sprawdź dane gniazda i interfejsu EEPROM)
+• 7038: Enkoder: Wartość pozycji niezsynchronizowana z wartością bezwzględną
+• 7039: Enkoder inkrementalny: ścieżka zakłóceń kabla A
+• 7040: Enkoder inkrementalny: ścieżka zakłóceń kabla B
+• 7041: Enkoder inkrementalny: tor zakłóceń kabla R
+• 7042: Enkoder inkrementalny: zbyt mała odległość zbocza sygnału kwadraturowego
+• 7043: Enkoder: ścieżka zakłóceń kabla D
+• 7044: Enkoder: parzystość
+• 7045: Resolver: zakłócenia sygnału (kontrola wiarygodności)
+• 7046: zaburzenia przewodu: Resolwer
+• 7047: Niepoprawna odległość znaków odniesienia
+• 7048: Błąd podczas odczytu pamięci enkodera
+• 7049: Nieprawidłowy pobór prądu enkodera
+• 7050: Enkoder inkrementalny: Nielegalna zmiana sygnału AB
+• 7051: Enkoder: Przyspieszenie za duże (zakłócenia)
+• 7052: Enkoder: Enkoder nie jest obsługiwany
+• 7053: Enkoder: awaria zasilania
+• 7054: Enkoder: Pozycja w kanale już zdefiniowana
+• 7055: Enkoder: nieprawidłowy typ treści „koniec ramki”
+• 7056: Enkoder: rejestrowanie odczytu zabronione lub niewdrożone
+• 7057: Enkoder: zapisywanie rejestru zabronione lub niewdrożone
+• 7058: Enkoder: Bit alarmu jest ustawiony
+• 7059: Wirtualny enkoder: Stan błędu
+• 7060: Wirtualny enkoder: Błąd przejścia
+• 7061: Virtual Encoder: wykrywanie utknięcia
+• 7100: Funkcja parametru nie jest obsługiwana. (Moduł?)
+• 7200: Szyna DC: przepięcie
+• 7210: Szyna DC: Ładowanie: Niestabilne napięcie
+• 7211: Szyna DC: spadek napięcia
+• 7212: Szyna DC: duży spadek napięcia
+• 7214: Szyna DC: gorący rezystor ładowania (zbyt wiele awarii linii zasilającej)
+• 7215: Sieć elektryczna: Awaria co najmniej jednej fazy linii energetycznej
+• 7217: Szyna DC: Detekcja napięcia znamionowego: Napięcie za wysokie
+• 7218: Szyna DC: Detekcja napięcia nominalnego: Napięcie za niskie
+• 7219: Szyna DC: Ładowanie: Zbyt niskie napięcie
+• 7220: Szyna DC: Detekcja napięcia znamionowego: Napięcie niedozwolone
+• 7221: Sieć: Awaria
+• 7222: Stopień mocy: Podłączenie prądu sumarycznego X5: Nadprądowe (zwarcie doziemne)
+• 7223: Szyna DC: przepięcie DC-GND
+• 7224: Złącze do tylnej płaszczyzny: monitorowanie styków 24 V-GND: Zbyt niskie napięcie
+• 7225: Szyna DC: przepięcie
+• 7226: Magistrala DC: nadprądowa
+• 7227: Bleeder: Overcurrent
+• 7300: Cyfrowe we / wy: Niepoprawna konfiguracja we / wy
+• 7401: Pozycja parametru przekracza maksymalną długość danych
+• 7402: Przerwano przetwarzanie sekwencji parametrów: błąd zapisu
+• 7403: Przetwarzanie sekwencji parametrów jest nadal aktywne
+• 7404: Sekwencja parametrów niedostępna przy indeksie
+• 8001: Niepoprawny wybór pamięci EEPROM
+• 8003: Niepoprawny indeks tabeli
+• 8004: Niepoprawny typ zmiennej EEPROM
+• 8005: Niepoprawny typ EEPROM
+• 8006: Wartość parametru EEPROM wynosi zero
+• 8007: Wartość parametru EEPROM jest nieprawidłowa
+• 8011: EPROM: Dane niepoprawne
+• 8020: nieprawidłowa częstotliwość przełączania
+• 9000: Czujnik temperatury radiatora: Przegrzanie - ruch zatrzymany
+• 9001: Czujnik temperatury radiatora: Nadmierna temperatura - aktywny ogranicznik
+• 9002: Czujnik temperatury radiatora: niepodłączony lub uszkodzony
+• 9003: Czujnik temperatury radiatora: niepodłączony lub zniszczony
+• 9010: Czujnik temperatury (silnik | dławik | zewnętrzny): przegrzanie
+• 9011: Czujnik temperatury (silnik | dławik | zewnętrzny): przegrzanie - aktywny ogranicznik
+• 9012: Czujnik temperatury (silnik | dławik | zewnętrzny): niepodłączony lub zniszczony
+• 9013: Czujnik temperatury (silnik | dławik | zewnętrzny): zwarcie
+• 9030: Model temperatury złącza: Przegrzanie - ruch zatrzymany
+• 9031: Model temperatury złącza: Przegrzanie - aktywny ogranicznik
+• 9040: Model temperatury odpowietrzacza: Przegrzanie - ruch zatrzymany
+• 9041: Model temperatury odpowietrzacza: Przegrzanie - aktywny ogranicznik
+• 9050: prąd szczytowy ACOPOS: Przeciążenie - ruch zatrzymany
+• 9051: prąd szczytowy ACOPOS: Przeciążenie - aktywny ogranicznik
+• 9060: prąd ciągły ACOPOS: Przeciążenie - ruch zatrzymany
+• 9061: prąd ciągły ACOPOS: Przeciążenie - aktywny ogranicznik
+• 9070: Model temperatury silnika: Przeciążenie - ruch zatrzymany
+• 9071: Model temperatury silnika: Przeciążenie - aktywny ogranicznik
+• 9075: Ciągła moc ACOPOS: Przeciążenie - ruch zatrzymany
+• 9076: Ciągła moc ACOPOS: Przeciążenie - aktywny ogranicznik
+• 9078: Stopień mocy: czujnik temperatury 1: Przegrzanie - ruch zatrzymany
+• 9079: Stopień mocy: czujnik temperatury 1: Przegrzanie - aktywny ogranicznik
+• 9080: Rezystor ładowania: Nadmierna temperatura
+• 9081: Model temperatury stopnia mocy: Nadmierna temperatura - ruch zatrzymany
+• 9082: Model temperatury stopnia mocy: Nadmierna temperatura - aktywny ogranicznik
+• 9083: Stopień mocy: czujnik temperatury 2: Przegrzanie - ruch zatrzymany
+• 9084: Stopień mocy: czujnik temperatury 2: Przegrzanie - aktywny ogranicznik
+• 9085: Stopień mocy: czujnik temperatury 3: Przegrzanie - ruch zatrzymany
+• 9086: Stopień mocy: czujnik temperatury 3: Nadmierna temperatura - aktywny ogranicznik
+• 9087: Stopień mocy: czujnik temperatury 4: Przegrzanie - ruch zatrzymany
+• 9088: Stopień mocy: czujnik temperatury 4: Nadmierna temperatura - aktywny ogranicznik
+• 9089: Czujnik temperatury enkodera silnika: Nadmierna temperatura
+• 9090: Czujnik temperatury enkodera silnika: Nieprawidłowa wartość temperatury
+• 9300: Kontroler prądu: Nadprądowy
+• 10.000: Parametr (y) identyfikacyjny brakujące
+• 10001: Identyfikacja parametru: Nieprawidłowy tryb podrzędny
+• 10100: Identyfikacja parametru: Współczynnik jakości niespełniony
+• 10101: Bez filtra ISQ
+• 10102: Nie znaleziono częstotliwości rezonansowej dla filtra ISQ (pasmo-stop)
+• 10103: Autotuning: przekroczony błąd maksymalnego opóźnienia
+• 10500: Zatrzymanie indukcyjne zostało zakończone
+• 31201: Interfejs Di / Do: Napęd nie jest gotowy
+• 31220: Błąd enkodera: Enkoder nie skonfigurowany
+• 31221: Błąd enkodera: Zakłócenie kabla lub zakłócenia sygnału
+• 31224: Interfejs enkodera: Moduł HW nie działa
+• 31240: Tryb procedury bazowania jest niedozwolony w przypadku bieżącego typu CWU
+• 31247: Interfejs napędu: Nie ustawiono DrvOK z modułu HW
+• 31248: Interfejs wyzwalacza: Moduł HW nie działa
+• 31249: Interfejs Napęd: HW moduł nie jest OK
+• 31250: Interfejs Di / Do: Moduł HW nie działa
+• 31260: Bieżąca konfiguracja osi jest możliwa tylko w trybie symulacji
+• 31261: Zmiana trybu regulacji serwonapędu jest niedozwolona
+• 32001: Błąd podczas wywoływania CAN_xopen ()
+• 32002: Błąd definiowania zapisu COB dla polecenia rozgłaszania
+• 32003: Błąd definiowania zapisu COB dla żądania odczytu parametru
+• 32004: Błąd definiowania zapisu COB dla żądania zapisu parametru
+• 32005: Błąd definiowania odczytu COB dla odpowiedzi odczytu parametru
+• 32006: Błąd definiowania odczytu COB dla odpowiedzi zapisu parametru
+• 32007: Błąd definiowania odczytu COB dla danych monitorowania z napędu
+• 32008: Błąd wysyłania żądania odczytu (błąd sieci?)
+• 32009: wysyłanie Zapis kupna (błąd sieci?) Błąd
+• 32010: Dysk nie odpowiada na żądanie odczytu (czy dysk jest w sieci?)
+• 32011: Dysk nie odpowiada na żądanie zapisu (czy dysk jest w sieci?)
+• 32012: Błąd odczytu opisu modułu modułu systemowego
+• 32013: Brak systemu operacyjnego na dysku
+• 32014: Wersja systemu operacyjnego na dysku niezgodna z wersją menedżera NC
+• 32015: Błąd podczas tworzenia kolejki komunikatów
+• 32016: Błąd wysyłania polecenia czasu bezczynności do zadania menedżera NC
+• 32017: Niepoprawny stan rozruchu po uruchomieniu systemu operacyjnego
+• 32018: Nieprawidłowy identyfikator parametru w module systemu
+• 32019: Pobieranie modułu systemu NC niedozwolone (moduł jest na PLC)
+• 32020: Dane modułu systemowego nie mogły zostać odczytane z napędu podczas INIT menedżera NC
+• 32021: Dane modułu systemu nie mogły zostać odczytane z napędu po pobraniu
+• 32022: Błąd przerywania dostępu do bloku danych przed pobraniem
+• 32023: Błąd odczytu stanu rozruchu przed pobraniem
+• 32025: Niepoprawny stan rozruchu po zresetowaniu oprogramowania SW przed pobraniem
+• 32026: Błąd podczas INIT dostępu do bloku danych do zapisu w celu pobrania
+• 32027: Błąd wysyłania segmentu danych do pobrania
+• 32029: Błąd odpowiedzi po wysłaniu segmentu danych do pobrania
+• 32030: Błąd na rozkaz do modułu systemu spalić po pobraniu
+• 32031: Błąd odczytu statusu wypalenia modułu systemowego po pobraniu
+• 32032: Błąd podczas nagrywania modułu systemu po pobraniu
+• 32033: Limit czasu podczas nagrywania modułu systemu po pobraniu
+• 32034: Błąd podczas resetowania SW przed pobraniem
+• 32035: Błąd przy resetowaniu SW po pobraniu
+• 32036: Różne dane modułu systemu po pobraniu
+• 32037: Zgubione komunikaty o błędach z powodu przepełnienia FIFO (potwierdzanie błędów)
+• 32038: Błąd wyszukiwania modułu parametrów INIT
+• 32039: Błąd odczytu modułu parametrów INIT
+• 32040: Wersja modułu parametrów INIT nie jest kompatybilna z menedżerem NC
+• 32041: Moduł acp10cfg nie istnieje
+• 32042: Moduł acp10cfg nie jest modułem danych NC
+• 32043: Typ modułu NC modułu acp10cfg jest nieprawidłowy
+• 32044: Nie można odczytać typu modułu NC modułu acp10cfg
+• 32045: Nie można odczytać adresu danych w module acp10cfg
+• 32046: Sekcja danych modułu acp10cfg jest pusta
+• 32047: Numer węzła CAN w module acp10cfg jest nieprawidłowy
+• 32048: Numer węzła CAN w module acp10cfg jest używany wielokrotnie
+• 32049: Ta akcja NC jest niedozwolona, gdy śledzenie jest aktywne
+• 32050: Przesyłanie danych śledzenia jest już aktywne
+• 32051: Nieprawidłowy status śledzenia dla przesyłania danych śledzenia
+• 32053: Błąd definiowania zapisu COB dla żądania odczytu parametru 2
+• 32054: Błąd definiowania zapisu COB dla żądania zapisu parametru 2
+• 32055: Błąd definiowania odczytu COB dla odpowiedzi odczytu parametru 2
+• 32056: Błąd definiowania odczytu COB dla odpowiedzi zapisu parametru 2
+• 32057: Błąd dostępu do tabeli klas zadań HS
+• 32058: Błąd dostępu do tabeli klas zadań
+• 32059: Parametr tk_no jest niepoprawny dla dostępu do tabeli klas zadań
+• 32060: Limit czasu dla cyklicznych danych z napędu - Niepoprawne wskazania (błąd sieci?)
+• 32061: Przekroczono limit czasu wysłania telegramu żądania odczytu (błąd sieci?)
+• 32062: Przekroczono limit czasu wysłania telegramu żądania zapisu (błąd sieci?)
+• 32063: Adres danych zero (ustawienie / odczyt parametru przez interfejs serwisowy)
+• 32064: Konwersja tekstu na dane binarne nie jest możliwa dla tego typu danych parametru
+• 32065: Konwersja danych binarnych na tekst nie jest możliwa dla tego typu danych parametru
+• 32066: Identyfikator parametru zero (ustawienie / odczyt parametru przez interfejs serwisowy)
+• 32067: Niepoprawny identyfikator parametru (ustaw / odczytaj parametr z opcją ncDATA_TEXT)
+• 32069: Nie można odczytać adresu danych parametrów ACOPOS w module acp10cfg
+• 32070: Nie znaleziono napędu dla parametrów ACOPOS w module acp10cfg
+• 32071: Parametry ACOPOS są nieprawidłowe (konieczna jest aktualizacja AutomationStudio)
+• 32072: Niepoprawny stan rozruchu po resecie oprogramowania
+• 32073: Pobieranie modułu systemu NC: Błąd odczytu wersji sprzętowej NC BsLoadera
+• 32074: Niezgodna wersja sprzętowa NC: Pobieranie programu BsLoader nie jest możliwe
+• 32075: Niezgodna wersja sprzętowa NC: Pobieranie systemu operacyjnego nie jest możliwe
+• 32076: FIFO dla komunikatów o wysokim priorytecie do Zadania Menedżera NC jest pełny
+• 32077: Numer węzła POWERLINK w module acp10cfg jest nieprawidłowy
+• 32078: Numer węzła POWERLINK w module acp10cfg jest używany wielokrotnie
+• 32079: W tej wersji jeden interfejs CAN musi znajdować się w module acp10cfg
+• 32080: W tej wersji jeden interfejs POWERLINK musi znajdować się w module acp10cfg
+• 32081: W tej wersji dozwolony jest tylko jeden interfejs POWERLINK w module acp10cfg
+• 32082: Moduł acp10cfg zawiera interfejs CAN bez żadnego węzła napędowego
+• 32083: Moduł acp10cfg zawiera interfejs POWERLINK bez żadnego węzła napędowego
+• 32084: Konfiguracja NC nie zawiera żadnego modułu ACOPOS
+• 32085: Niepoprawny moduł acp10cfg (wymagany program AutomationStudio V2.2 lub nowszy)
+• 32086: W tej wersji interfejs acp10cfg nie jest dozwolony
+• 32087: W tej wersji interfejs POWERLINK nie jest dozwolony w module acp10cfg
+• 32088: Moduł parametrów INIT określony w tabeli mapowania NC nie istnieje
+• 32089: NC-HW-ID modułu parametrów INIT nie jest kompatybilny z menedżerem NC
+• 32090: Typ obiektu NC modułu parametrów INIT nie jest równy obiektowi NC
+• 32091: Niepoprawne dane bloku w module parametrów INIT (przekroczony zakres danych)
+• 32092: Błąd wysyłania polecenia do zadania bezczynności NC
+• 32093: NcManCtrl jest definiowany wielokrotnie z różnymi wartościami
+• 32094: NetworkInit jest wielokrotnie definiowany dla ncMANAGER z różnymi wartościami
+• 32095: Wartość grupy napędów w module CAN-CFG wyższa niż wartość maksymalna
+• 32096: Zbyt mały rozmiar bufora danych do przesyłania danych śledzenia w module acp10cfg
+• 32097: Wszystkie liczby używanych interfejsów sieciowych w module acp10cfg wynoszą zero
+• 32098: Wersja modułu acp10cfg nie jest kompatybilna z menedżerem NC
+• 32099: Długość sekcji danych modułu acp10cfg jest za mała
+• 32100: Nie można przydzielić pamięci do zarządzania tekstem błędu NC
+• 32101: Błąd dostępu do modułu tekstowego błędu NC w tabeli modułów BR
+• 32102: Identyfikator wersji modułu tekstu błędu nie jest równy identyfikatorowi menedżera NC
+• 32103: Nie można odczytać sekcji danych modułu tekstu błędu
+• 32104: Sekcja danych modułu tekstu błędu jest pusta
+• 32105: Długość sekcji danych modułu tekstu błędu jest za mała
+• 32106: Lista błędów modułu tekstu błędu nie jest równa liście menedżera NC
+• 32107: Lista parametrów modułu tekstu błędu nie jest równa liście menedżera NC
+• 32108: Ostatni numer błędu modułu tekstu błędu nie jest równy 65535
+• 32109: Ostatni identyfikator parametru modułu tekstu błędu nie jest równy 65535
+• 32110: Nie można odczytać odcinka danych modułu CAN-CFG
+• 32111: Długość sekcji danych modułu CAN-CFG jest zbyt mała
+• 32112: Nie można odczytać adresu danych w module CAN-CFG
+• 32113: Kod aktywacyjny w module CAN-CFG jest nieprawidłowy
+• 32114: Wartości nie są równe zero w zarezerwowanym obszarze modułu CAN-CFG
+• 32115: Podstawowy identyfikator CAN dla kanału WR / RD 1 w module CAN-CFG jest nieprawidłowy
+• 32116: Podstawowy identyfikator CAN dla kanału WR / RD 2 w module CAN-CFG jest nieprawidłowy
+• 32117: Podstawowy identyfikator CAN dla kanału WR / RD 3 w module CAN-CFG jest nieprawidłowy
+• 32118: Podstawowy identyfikator CAN dla danych monitorowania w module CAN-CFG jest nieprawidłowy
+• 32119: Niepoprawna podstawowa ID CAN dla cyklicznych danych do napędu w module CAN-CFG
+• 32120: Niepoprawna podstawowa ID CAN dla cyklicznych danych z napędu w module CAN-CFG
+• 32121: Identyfikator CAN dla telegramu SYNC w module CAN-CFG jest nieprawidłowy
+• 32122: Identyfikator CAN dla polecenia rozgłaszania w module CAN-CFG jest nieprawidłowy
+• 32123: Błąd definiowania odczytu COB dla żądania WR2 (tryb zewnętrznego ustawiania pozycji)
+• 32124: Błąd definiowania odczytu COB dla odpowiedzi WR2 (tryb zewnętrznego ustawienia pozycji)
+• 32125: Błąd definiowania odczytu COB dla żądania RD2 (tryb zewnętrznego ustawiania pozycji)
+• 32126: Błąd definiowania odczytu COB dla odpowiedzi RD2 (tryb zewnętrznego ustawienia pozycji)
+• 32127: Błąd usuwania zapisu COB dla polecenia rozgłaszania (tryb ustawiania zewnętrznego położenia)
+• 32128: Błąd definiowania odczytu COB dla polecenia rozgłoszeniowego (tryb zewnętrznego ustawiania pozycji)
+• 32129: Błąd podczas definiowania odczytu COB dla cyklicznych danych użytkownika z napędu (tryb poz. Ustaw. Poz.)
+• 32130: Ten tryb zewnętrznego ustawienia pozycji jest dozwolony tylko z jednym interfejsem CAN
+• 32131: Określony moduł danych NC nie istnieje
+• 32132: Określony moduł nie jest modułem danych NC
+• 32133: Typ modułu NC określonego modułu danych NC jest nieprawidłowy
+• 32134: Nie można odczytać typu modułu NC określonego modułu danych NC
+• 32135: Nie można odczytać adresu danych określonego modułu danych NC
+• 32136: Sekcja danych określonego modułu danych NC jest pusta
+• 32137: Adres danych struktury dla operacji bloku danych wynosi zero
+• 32138: Adres danych zero (dane użytkownika dla operacji bloku danych)
+• 32139: Długość danych zero (dane użytkownika dla operacji bloku danych)
+• 32140: Działanie bloku danych: Nazwa modułu danych lub adres danych muszą wynosić zero
+• 32141: Niepoprawny format danych w sekwencji parametrów
+• 32142: Niepoprawny identyfikator lub typ parametru w sekwencji parametrów w formacie tekstowym
+• 32143: Dane parametru w sekwencji parametrów dłuższej niż 6 bajtów
+• 32144: Błąd tabeli parametrów ACOPOS określonej w tabeli mapowania NC
+• 32145: Tabela parametrów ACOPOS nie istnieje
+• 32146: Tabela parametrów ACOPOS nie jest modułem danych NC
+• 32147: Typ modułu NC tabeli parametrów ACOPOS jest nieprawidłowy
+• 32148: Nie można odczytać typu modułu NC tabeli parametrów ACOPOS
+• 32149: Nie można odczytać adresu danych w tabeli parametrów ACOPOS
+• 32150: Sekcja danych w tabeli parametrów ACOPOS jest pusta
+• 32151: Błąd inicjowania bufora pamięci dla analizatora składni XML
+• 32152: Brak elementów XML w tabeli parametrów ACOPOS
+• 32153: Pierwszy element XML jest nieprawidłowy w tabeli parametrów ACOPOS
+• 32154: Tabela parametrów ACOPOS nie zawiera żadnych parametrów ACOPOS
+• 32155: Przekroczono głębokość zagnieżdżenia dla grup parametrów ACOPOS
+• 32156: Identyfikator lub typ parametru ACOPOS jest niepoprawny do konwersji tekstu
+• 32157: Długość danych parametru jest zbyt duża dla parametru ACOPOS w danych XML
+• 32158: parametr ACOPOS: atrybut nie jest zdefiniowany (identyfikator)
+• 32159: Parametr ACOPOS: Atrybut nie został zdefiniowany (wartość)
+• 32160: Podstawowe ruchy w trybie ncTRG_STOP są niedozwolone dla ncV_AXIS
+• 32161: ncNC_SYS_RESTART, ncACKNOWLEDGE jest niedozwolony (network.init = ncFALSE)
+• 32162: Niepoprawny wewnętrzny numer klasy zadania (od tej chwili operacja jest zablokowana !!!)
+• 32163: Pobieranie modułu systemu na wszystkie dyski za pomocą SwNodeSelect nie jest możliwe
+• 32164: Tekst zdefiniowany za pomocą NetworkInit (globalny) jest nieprawidłowy
+• 32165: Numer węzła CAN jest równy NodeNr_SwNodeSelect
+• 32166: Inicjalizacja sieci podczas aktywnej inicjalizacji sieci jest niedozwolona
+• 32167: Tekst zdefiniowany za pomocą NetworkInit jest nieprawidłowy
+• 32168: NodeNr_SwNodeSelect jest definiowany wielokrotnie z różnymi wartościami
+• 32169: Numer węzła zdefiniowany za pomocą NodeNr_SwNodeSelect jest nieprawidłowy
+• 32170: Należy wprowadzić nazwę modułu danych dla tej operacji bloku danych
+• 32171: Indeks zero jest niedozwolony (dane użytkownika dla operacji bloku danych)
+• 32172: Podana nazwa modułu danych jest niepoprawna dla modułu BR
+• 32173: Nie można przydzielić pamięci do tworzenia modułu danych
+• 32174: Błąd podczas instalacji modułu danych w tabeli modułów BR
+• 32175: Błąd podczas instalacji modułu danych w tabeli modułów BR
+• 32176: Tekst danych parametrów jest zbyt duży dla sekwencji parametrów w formacie tekstowym
+• 32177: Tekst danych parametrów jest zbyt duży dla listy parametrów w formacie tekstowym
+• 32178: Ten obiekt NC nie jest włączony dla tego ACOPOS (zbyt wysoki numer kanału)
+• 32179: Niepoprawny identyfikator lub typ parametru na liście parametrów w formacie tekstowym
+• 32180: Adres danych struktury dla operacji na liście parametrów wynosi zero
+• 32181: Adres danych zero (dane użytkownika do operacji na liście parametrów)
+• 32182: Długość danych zero (dane użytkownika do operacji na liście parametrów)
+• 32183: Niepoprawna długość danych (dane użytkownika do operacji na liście parametrów)
+• 32184: Niepoprawny format danych na liście parametrów
+• 32185: Dane parametru na liście parametrów dłuższej niż 6 bajtów
+• 32186: NetBasisInitNr jest definiowany wielokrotnie dla ncMANAGER z różnymi wartościami
+• 32187: Błąd synchronizacji inicjalizacji sieci (szczegóły w Loggerze)
+• 32188: Ten obiekt NC jest zdefiniowany w konfiguracji sprzętowej i tabeli odwzorowań NC
+• 32189: Limit czasu dla cyklicznych danych z dysku - Niepoprawne wskazania (błąd sieci?)
+• 32190: Błąd definiowania zapisu COB przy wyborze numeru węzła za pomocą oprogramowania
+• 32191: Ten identyfikator parametru jest zarezerwowany dla biblioteki PLCopen MC
+• 32192: Podany moduł danych nie jest modułem parametru INIT
+• 32193: Dla tego typu obiektu NC nie występuje moduł parametrów INIT
+• 32194: Ta funkcja nie jest zaimplementowana dla tego typu obiektu NC
+• 32195: Błąd pobierania BsLoadera do ACOPOS
+• 32196: Błąd pobierania systemu operacyjnego do ACOPOS
+• 32197: Błąd pobierania BsLoadera do ACOPOS (dodatkowe informacje w Loggerze)
+• 32198: Błąd pobierania systemu operacyjnego do ACOPOS (dodatkowe informacje w Loggerze)
+• 32200: Błąd podczas wywoływania plAcycWrite () (odczyt parametru)
+• 32201: Błąd podczas wywoływania plAcycWrite () (parametr zapisu)
+• 32202: Błąd podczas wywoływania plAcycRead () (odczyt parametru)
+• 32203: Błąd podczas wywoływania plAcycRead () (parametr zapisu)
+• 32204: Limit czasu podczas czytania par. przez kanał acykliczny (czy dysk jest w sieci?)
+• 32205: Limit czasu podczas pisania par. przez kanał acykliczny (czy dysk jest w sieci?)
+• 32206: Kanał cykliczny: Żądanie odczytu pomimo oczekiwania na odpowiedź
+• 32207: Kanał cykliczny: żądanie zapisu pomimo oczekiwania na odpowiedź
+• 32208: Błąd przy użyciu plAction (DEVICE_TO_BUS_NR) (dodatkowe informacje w Loggerze)
+• 32209: Błąd przy użyciu plAction (GET_IDENT) (dodatkowe informacje w Loggerze)
+• 32.210: Niewłaściwy ident interfejs Dzwoniąc plState () (Dodatkowe informacje w Logger)
+• 32211: Interfejs niedostępny podczas wywoływania plState () (dodatkowe informacje w Loggerze)
+• 32212: Fatalny błąd interfejsu podczas wywoływania plState () (dodatkowe informacje w Loggerze)
+• 32213: Limit czasu dla interfejsu POWERLINK (dodatkowe informacje w Loggerze)
+• 32214: Błąd podczas wywoływania plAcycOpen () (dodatkowe informacje w Loggerze)
+• 32215: Błąd podczas wywoływania funkcji plCECreate () (dodatkowe informacje w programie rejestrującym)
+• 32216: Błąd przy użyciu plAction (GET_IF_PAR) (dodatkowe informacje w Loggerze)
+• 32217: Kanał rozgłoszeniowy: Błąd podczas wywoływania plAcycWrite () (parametr odczytu)
+• 32218: Kanał rozgłoszeniowy: Błąd podczas wywoływania plAcycWrite () (parametr zapisu)
+• 32219: Błąd przy użyciu plAction (GET_IF_MUXPRESCALE) (dodatkowe informacje w Loggerze)
+• 32220: Błąd przy użyciu plAction (GET_IF_CYCLE_TIME) (dodatkowe informacje w Loggerze)
+• 32221: Błąd przy użyciu plAction (GET_IF_PRESCALE) (dodatkowe informacje w Loggerze)
+• 32222: Błąd przy użyciu plAction (GET_STATIONFLAG) (dodatkowe informacje w Loggerze)
+• 32223: Błąd podczas wywoływania funkcji plGetNodeInfo () (dodatkowe informacje w programie rejestrującym)
+• 32224: Błąd podczas wywoływania plAction (GET_PROTOCOL_VERSION) (dodatkowe informacje w Loggerze)
+• 32225: Ten węzeł ACOPOS POWERLINK nie istnieje w konfiguracji AR
+• 32226: Numer węzła SDC w module acp10cfg jest nieprawidłowy
+• 32227: Numer węzła SDC w module acp10cfg jest używany wielokrotnie
+• 32228: Brak interfejsu sieciowego (POWERLINK lub SDC) zawartego w acp10cfg
+• 32229: Obiekt acp10sdc nie istnieje (niezbędny dla obiektów SDC NC)
+• 32230: Błąd przy inicjalizacji ACP10SDC lub ACP10SIM (patrz Rejestrator)
+• 32231: Błąd przy konfiguracji SDC (patrz rejestrator)
+• 32232: Obiekt acp10sim nie istnieje (niezbędny do symulacji ACOPOS)
+• 32233: Obiekt acp10bsl nie zawiera modułu systemu NC
+• 32234: Obiekt acp10sys nie zawiera modułu systemu NC
+• 32235: Adres danych zero dla parametru w sekwencji parametrów
+• 32236: Adres danych zero dla parametru na liście parametrów
+• 32237: Indeks kanałów dla parametrów ACOPOS w module acp10cfg jest nieprawidłowy
+• 32238: Ta funkcja nie jest obecnie zaimplementowana
+• 32239: Nie można przydzielić podstawowej pamięci dla modułów parametrów INIT
+• 32240: Dane obiektu NC są nieprawidłowe (PV z wartością INIT w deklaracji zmiennej?)
+• 32241: Działanie bloku danych: Nazwa modułu danych musi wynosić zero
+• 32242: Warunki transferu profilu krzywki za pomocą Systick-Task nie są spełnione
+• 32243: Błąd przy użyciu plAction (GET_PDO_INFO) (dodatkowe informacje w Loggerze)
+• 32244: Brak zdefiniowanego PDO w ramce cyklicznej dla tego kanału: obiekt NC jest wyłączony
+• 32245: Nie można przydzielić pamięci do obsługi kanału rozgłoszeniowego
+• 32246: „Kierunek” kanału rozgłoszeniowego POWERLINK nie jest „Wyjściowy”
+• 32247: Błąd przy użyciu plAction (GET_TC_INFO) (dodatkowe informacje w Loggerze)
+• 32251: NcNetCyc: Limit czasu odpowiedzi
+• 32252: NcNetCyc: Nieoczekiwana odpowiedź (niepoprawna wartość licznika)
+• 32253: Klasa zadania wyzwalacza cyklu wyjściowego POWERLINK jest nieprawidłowa
+• 32259: Obecnie nie ma danych śledzenia do zapisania
+• 32260: Śledzenie: Nie zdefiniowano prawidłowego punktu danych testowych
+• 32261: Wyzwalanie śledzenia: Obiekt NC jest nieprawidłowy
+• 32262: Punkt danych testu śledzenia: Obiekt NC jest nieprawidłowy
+• 32263: Wyzwalanie śledzenia: Obiekt NC nie jest włączony dla tego systemu ACOPOS
+• 32264: Punkt danych testu śledzenia: Obiekt NC nie jest włączony dla tego systemu ACOPOS
+• 32265: Wyzwalacz śledzenia: Śledzenie dla tego obiektu NC jest już aktywne na początku śledzenia
+• 32266: Punkt danych testu śledzenia: Śledzenie dla tego obiektu NC jest już aktywne na początku śledzenia
+• 32267: Wyzwalacz śledzenia: Obiekt NC nie jest włączony dla poleceń śledzenia
+• 32268: Punkt danych testu śledzenia: Obiekt NC nie jest włączony dla poleceń śledzenia
+• 32269: Śledzenie: zdefiniowano zbyt wiele punktów danych testowych dla jednego kanału śledzenia
+• 32270: Sprzężenie ACOPOS: numer kanału wysyłanych danych jest nieprawidłowy
+• 32271: Sprzężenie ACOPOS: numer kanału odbieranych danych jest nieprawidłowy
+• 32272: Sprzężenie ACOPOS: Wysyłanie danych z tym numerem kanału nie jest skonfigurowane
+• 32273: Sprzężenie ACOPOS: Obiekt NC wysyłanych danych jest nieprawidłowy
+• 32274: Łączenie sieci: kanał rozgłoszeniowy nie został skonfigurowany
+• 32275: Łączenie sieci: Kanał rozgłoszeniowy nie został pomyślnie zainicjowany
+• 32276: Sprzężenie sieciowe: czasy cykli nie są równe (interfejsy sieciowe, klasa zadań NC)
+• 32277: Sprzężenie sieciowe: W kanale rozgłoszeniowym nie ma już rekordu danych
+• 32278: Sprzężenie ACOPOS: zero jako ID parametru wysyłanych danych jest niedozwolone
+• 32279: Interfejs serwisowy: Adres danych zero
+• 32280: Limit czasu dla umożliwienia acyklicznej komunikacji sieciowej
+• 32281: Wersja SafeMC niższa niż wersja minimalna (patrz rejestrator)
+• 32282: Połączenie sieciowe: Niezgodne czasy cykli (interfejsy sieciowe, klasa zadań NC)
+• 32283: Punkt transmisji danych INIT: Akcja wywołania NC dozwolona tylko w NC Manager TC
+• 32284: Ext. dane sprzężenia: w tej wersji AR / NC tylko dla TC1 z synchronizatorem. wynik
+• 32285: Punkt danych emisji INIT: Niezgodne czasy cyklu (POWERLINK, menedżer NC)
+• 32286: Połączenie sieciowe: Niezgodne czasy cykli (interfejsy sieciowe, klasa zadań NC)
+• 32287: Rozszerzone dane sprzężenia nie są możliwe (zbyt duża różnica czasu)
+• 32288: Rozszerzone dane sprzężenia nie są możliwe (tolerancja klasy zadania nie jest równa zero)
+• 32302: Rozpocznij konfigurację niemożliwą: Operacja konfiguracji jest już aktywna
+• 32322: Przesyłanie / pobieranie bloku danych: Nazwa obiektu danych wynosi zero
+• 32323: Przesyłanie / pobieranie bloku danych: Identyfikator parametru bloku danych jest nieprawidłowy
+• 32324: Przesyłanie / pobieranie bloku danych: Identyfikator parametru indeksu 1 bloku danych jest nieprawidłowy
+• 32325: Przesyłanie / pobieranie bloku danych: Identyfikator parametru indeksu 2 bloku danych jest nieprawidłowy
+• 32326: Przesyłanie / pobieranie bloku danych: Adres bufora danych wynosi zero
+• 32327: Przesyłanie / pobieranie bloku danych: Długość bufora danych wynosi zero
+• 32328: Przesyłanie bloku danych: Długość bufora danych mniejsza niż długość bloku danych
+• 32398: acp10sys nie zawiera systemu operacyjnego dla tego typu sprzętu ACOPOS
+• 32399: Ręczny restart ACOPOS (POWER-OFF / -ON) po pobraniu NCSYS
+• 32400: Nie można przydzielić pamięci
+• 32401: Nie określono nazwy pliku
+• 32402: Nie można otworzyć określonego pliku
+• 32403: Nie można utworzyć określonego pliku
+• 32404: Błąd podczas zapisywania do pliku
+• 32405: Błąd podczas odczytu z pliku
+• 32406: Nie można utworzyć określonego pliku
+• 32407: Błąd podczas zapisywania do pliku
+• 32408: Błąd podczas zamykania pliku
+• 32409: Określonego pliku nie można usunąć
+• 32410: typ obiektu danych jest nieprawidłowy
+• 32411: Adres struktury obiektu danych wynosi zero
+• 32412: Nazwa w strukturze obiektu danych to zero
+• 32413: Adres danych w strukturze obiektu danych wynosi zero
+• 32414: Długość danych w strukturze obiektu danych wynosi zero
+• 32415: Nie określono urządzenia plikowego
+• 32416: Funkcje FileIO nie istnieją (czy istnieje biblioteka FileIO?)
+• 32417: Błąd zapisu do modułu danych NC
+• 32418: Brak danych XML w danych MTC
+• 32419: Dane MTC: Niepoprawne lub niepoprawne elementy XML
+• 32420: dane MTC zawierają niepoprawną konfigurację
+• 32421: Dane MTC nie zawierają konfiguracji dla śledzenia wieloosiowego
+• 32422: Dane MTC zawierają więcej niż jedną konfigurację dla śledzenia wieloosiowego
+• 32423: MTC-Daten: Trigger.NcObject jest nieprawidłowy
+• 32424: MTC-Daten: Trigger.Condition jest nieprawidłowy
+• 32425: MTC-Daten: Channel.NcObject jest nieprawidłowy
+• 32426: Wyzwalacz śledzenia: Zdarzenie jest nieprawidłowe
+• 32427: Wyzwalanie śledzenia: parametr ID zero jest niedozwolony, jeśli zdarzenie jest nierównomierne dla OFF
+• 32428: format obiektu danych jest nieprawidłowy
+• 32492: Symulacja ACOPOS: TC dla cyklicznych danych PLCopen nie jest równy NC Manager TC
+• 32494: AcoposSimulation = Wyłączony dla jednego kanału, chociaż aktywowany dla drugiego kanału
+• 32495: AcoposSimulation: Różne wartości zdefiniowane dla osi rzeczywistej i wirtualnej
+• 32496: Błąd tworzenia cyklicznego zadania dla PLCopen MC (szczegóły w Loggerze)
+• 32497: Klasa zadania do obsługi danych cyklicznych za pomocą PLCopen w acp10cfg jest nieprawidłowa
+• 32498: PLCopen_CyclicData_TaskClass jest niższa niż zero lub wyższa niż maksymalna wartość
+• 32499: PLCopen_CyclicData_TaskClass: Wartości dla osi rzeczywistej i wirtualnej nie są równe
+• 32500: Wiadomość FIFO już istnieje
+• 32501: Błąd podczas tworzenia komunikatu FIFO
+• 32502: Sekcja krytyczna dla semafora dowodzenia już istnieje
+• 32503: Błąd podczas tworzenia sekcji krytycznej dla semafora poleceń
+• 32504: Zadanie bezczynności menedżera NC już istnieje
+• 32505: Błąd podczas tworzenia Zadania bezczynnego Menedżera NC
+• 32506: Błąd odczytu czasu cyklu klasy zadań
+• 32507: Błąd odczytu Tolerancji klasy zadań
+• 32508: Błąd wysyłania polecenia czasu bezczynności do zadania menedżera NC
+• 32509: Sekcja krytyczna dla śledzenia poleceń sieciowych już istnieje
+• 32510: Błąd podczas tworzenia sekcji krytycznej dla śledzenia poleceń sieciowych
+• 32511: sekcja krytyczna dla komunikatów o wysokim priorytecie już istnieje
+• 32512: Błąd podczas tworzenia sekcji krytycznej dla komunikatów o wysokim priorytecie
+• 32513: Sekcja Krytyczna dla zmiennych globalnych już istnieje
+• 32514: Błąd podczas tworzenia sekcji krytycznej dla zmiennych globalnych
+• 32738: Błąd zapisu do SDM Motion FIFO
+• 32739: Błąd podczas tworzenia SDM Motion FIFO (patrz Rejestrator)
+• 32740: Błąd podczas usuwania SDM Motion FIFO (patrz Rejestrator)
+• 32741: Błąd podczas tworzenia zadania SDM Motion (patrz Rejestrator)
+• 32742: Błąd podczas usuwania zadania SDM Motion (patrz Rejestrator)
+• 32743: SDM_Motion_Action: ncaction () nie powrócił z ncOK
+• 32744: SDM_Motion_Action niedozwolone (wciąż nie załadowano konfiguracji śledzenia)
+• 32745: SDM_Motion_Action nie jest dozwolone (śledzenie ruchu już rozpoczęte przez aplikację)
+• 32746: SDM_Motion_Action nie jest dozwolone (śledzenie ruchu już rozpoczęte przez SDM)
+• 32747: SDM_Motion_Action: DataAddress ma wartość zero lub jest zdefiniowany
+• 32748: SDM_Motion_Action: DataLen ma wartość zero lub jest zdefiniowana
+• 32749: SDM_Motion_Action: BrModName jest za długi
+• 32750: SDM_Motion_Action: BrModName nie jest zdefiniowany
+• 32751: SDM_Motion_Action: Nazwa pliku nie jest zdefiniowana
+• 32752: SDM_Motion Działanie niemożliwe: funkcja AR nie istnieje (patrz rejestrator)
+• 32753: SDM_Motion_Action: CREATE_NCOBJ_LIST musi zostać wywołany przed tą akcją
+• 32754: SDM_Motion_Action: Typ obiektu NC jest nieprawidłowy dla tej akcji
+• 32755: SDM_Motion_Action: Błąd braku pamięci
+• 32756: SDM_Motion_Action: Błąd przydziału pamięci
+• 32757: SDM_Motion_Action: Ta akcja nie jest jeszcze zaimplementowana
+• 32758: SDM_Motion_Action: Identyfikator obiektu NC jest nieprawidłowy dla tej akcji
+• 32759: SDM_Motion_Action: Identyfikator obiektu NC musi być zerowy dla tej akcji
+• 32760: SDM_Motion_Action: Wskaźnik argumentów funkcji wyjścia ma wartość zero lub nie został zdefiniowany
+• 32761: SDM_Motion_Action: Wskaźnik funkcji wyjścia ma wartość zero lub nie został zdefiniowany
+• 32762: SDM_Motion_Action: Pierwszy element XML w danych wejściowych jest nieprawidłowy
+• 32763: SDM_Motion_Action: Brak elementu XML w danych wejściowych
+• 32764: SDM_Motion_Action: Błąd inicjowania bufora pamięci dla parsera XML
+• 32765: SDM_Motion_Action: Długość danych wejściowych XML wynosi zero
+• 32766: SDM_Motion_Action: Wskaźnik danych wejściowych XML wynosi zero
+• 32767: SDM_Motion_Action: Niepoprawny identyfikator akcji
+• 33000: Czas cyklu głównego nie jest wielokrotnością czasu cyklu komunikacji
+• 33002: Wyjątek zmiennoprzecinkowy
+• 33003: wyjątek dotyczący błędu adresu
+• 33004: Wyjątek błędu magistrali
+• 33005: Wyjątek
+• 33006: wyjątek dotyczący naruszenia praw dostępu
+• 33007: Adres naruszenia
+• 33008: FPGA: błąd CRC: adres
+• 33009: FPGA: błąd CRC: bajt
+• 35000: SMC Fail Safe: błąd wewnętrzny, przebieg programu
+• 35001: SMC Fail Safe: Błąd wewnętrzny, dostęp do wskaźnika NULL
+• 35002: SMC Fail Safe: Błąd wewnętrzny, przesyłanie SPI
+• 35003: SMC Fail Safe: Błąd wewnętrzny, pamięć danych MFW NVM
+• 35004: SMC Fail Safe: Błąd wewnętrzny, komunikacja EnDat Master
+• 35005: SMC Fail Safe: Błąd wewnętrzny, komunikacja ACOPOS
+• 35006: SMC Fail Safe: Błąd wewnętrzny, koder komunikacji
+• 35016: SMC Fail Safe: Błąd wewnętrzny, komunikacja krzyżowa punktów kontrolnych
+• 35017: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja słowa statusowego
+• 35018: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja stanu wyjściowego
+• 35019: SMC Fail Safe: Błąd wewnętrzny, komunikacja krzyżowa pozycji EnDat
+• 35020: SMC Fail Safe: błąd wewnętrzny, komunikacja krzyżowa rejestru błędów EnDat
+• 35021: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja maszyny stanów EnDat
+• 35022: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja maszyny stanów EnDat
+• 35023: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja maszyny stanów EnDat
+• 35024: SMC Fail Safe: Konfiguracja enkodera - Jednostki na liczbę obrotów są nieprawidłowe
+• 35025: SMC Fail Safe: Konfiguracja enkodera - znormalizowana prędkość maksymalna nieważna
+• 35026: SMC Fail Safe: Konfiguracja enkodera - Zbyt niska rozdzielczość enkodera
+• 35027: SMC Fail Safe: Konfiguracja enkodera - Zbyt wysoka rozdzielczość enkodera
+• 35028: SMC Fail Safe: Konfiguracja enkodera - Zbyt wysoka rozdzielczość jednostek
+• 35029: SMC Fail Safe: Konfiguracja enkodera - Jedna jednostka jest krótsza niż jedna nm
+• 35030: SMC Fail Safe: Niezgodność enkodera - Dane konfiguracyjne zmieniane kilka razy
+• 35031: SMC Fail Safe: Niezgodność enkodera - Dane konfiguracyjne zmienione
+• 35032: SMC Fail Safe: błędna parametryzacja
+• 35033: SMC Fail Safe: czas cyklu modułu jest nieprawidłowy
+• 35034: SMC Fail Safe: parametryzacja - rampa hamowania jest zbyt stroma
+• 35035: SMC Fail Safe: Wewnętrzny automat stanów jest w stanie Fail Safe
+• 35036: SMC Fail Safe: zażądano dezaktywowanej funkcji bezpieczeństwa
+• 35037: SMC Fail Safe: SMS - ograniczenie prędkości jest poza zakresem
+• 35038: SMC Fail Safe: SLS1 - ograniczenie prędkości jest poza zakresem
+• 35039: SMC Fail Safe: SLS2 - Ograniczenie prędkości jest poza zakresem
+• 35040: SMC Fail Safe: SLS3 - Ograniczenie prędkości jest poza zakresem
+• 35041: SMC Fail Safe: SLS4 - Ograniczenie prędkości jest poza zakresem
+• 35042: SMC Fail Safe: ograniczenie prędkości przestoju jest poza zakresem
+• 35043: SMC Fail Safe: SLS1 - ograniczenie prędkości narusza instrukcję konfiguracji
+• 35044: SMC Fail Safe: SLS2 - Ograniczenie prędkości narusza instrukcję konfiguracji
+• 35045: SMC Fail Safe: SLS3 - Ograniczenie prędkości narusza instrukcję konfiguracji
+• 35046: SMC Fail Safe: SLS4 - Ograniczenie prędkości narusza instrukcję konfiguracji
+• 35047: SMC Fail Safe: Zatrzymanie Ograniczenie prędkości narusza instrukcję konfiguracji
+• 35048: SMC Fail Safe: Naruszenie limitów parametrów
+• 35049: SMC Fail Safe: SMP jest używany, ale bazowanie nie zostało skonfigurowane
+• 35.050: SMC Fail Safe: SMP - granica dolna pozycja jest większa lub równa górnej granicy
+• 35051: SMC Fail Safe: SLP jest używany, ale bazowanie nie zostało skonfigurowane
+• 35052: SMC Fail Safe: SLP - Dolna granica pozycji jest większa lub równa górnej granicy
+• 35053: SMC Fail Safe: SLP - Okno pozycji poza oknem pozycji SMP
+• 35054: SMC Fail Safe: SMP - Tolerancja jest większa niż okno pozycji SMP
+• 35055: SMC Fail Safe: SLP - Tolerancja jest większa niż okno pozycji SLP
+• 35056: SMC Fail Safe: Wartość rampy zwalniania jest poza zakresem
+• 35068: SMC Fail Safe: Homing - Max. prędkość wyzwalania jest poza zakresem
+• 35069: SMC Fail Safe: Homing - Ref Ref Switch: Nie podłączono przełącznika odniesienia
+• 35070: SMC Fail Safe: Homing - Home Offset: Nie podłączono enkodera absolutnego
+• 35071: SMC Fail Safe: Homing - Home Offset with Correction: SMP nie skonfigurowano
+• 35072: SMC Fail Safe: Homing - okno SMP jest większe niż bezpieczny zakres enkodera absolutnego
+• 35073: SMC Fail Safe: Homing - okno SLP jest większe niż bezpieczny zakres enkodera absolutnego
+• 35074: SMC Fail Safe: Homing - Enkoder nie obsługuje bezpiecznego impulsu odniesienia
+• 35075: SMC Fail Safe: Homing - tolerancja prędkości jest poza zakresem
+• 35076: SMC Fail Safe: Homing - puls referencyjny: Max. prędkość wyzwalania jest za duża
+• 35077: SMC Fail Safe: Homing - funkcja jest wymagana, ale nie skonfigurowana
+• 35078: SMC Fail Safe: Homing - bit RefSwitch jest ustawiony, ale nie skonfigurowany
+• 35079: SMC Fail Safe: Homing - Pozycja jest poza oknem SMP
+• 35080: SMC Fail Safe: Homing - Direct z referencyjnym impulsem: nieobsługiwany
+• 35081: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja sygnałów wyjściowych
+• 35082: SMC Fail Safe: Błąd wewnętrzny, wzajemna komunikacja maszyny stanu wyjściowego
+• 35084: SMC Fail Safe: Błąd programu w stanie przedoperacyjnym
+• 35085: SMC Fail Safe: Bezpieczne wyjście - Wykryto przy wysokim poziomie
+• 35086: SMC Fail Safe: Bezpieczne wyjście - Stan testu zmienił się
+• 35087: SMC Fail Safe: Enkoder - Przekroczono ograniczenie prędkości
+• 35088: SMC Fail Safe: Encoder - Przekroczono limit przyspieszenia
+• 35091: SMC Fail Safe: Wykryto niezgodność enkodera
+• 35092: SMC Fail Safe: Błąd wewnętrzny, ustawiony Lockbit
+• 35093: SMC Fail Safe: zbyt duża tolerancja błędu prędkości
+• 35094: SMC Fail Safe: zbyt duża tolerancja błędu opóźnienia
+• 35095: SMC Fail Safe: enkoder - błąd konfiguracji
+• 35096: SMC Fail Safe: Homing - Błąd konfiguracji
+• 35153: SMC: Błąd internatora, test CUnit
+• 35161: SMC Fail Safe: Niezgodna struktura parametrów
+• 35162: SMC Fail Safe: Niezgodny typ osi
+• 35163: SMC Fail Safe: Błąd w funkcji przedoperacyjnej
+• 35197: SMC Functional Fail Safe: SS2, SOS Naruszenie tolerancji pozycji zatrzymania
+• 35198: SMC Functional Fail Safe: Wykryto błąd enkodera
+• 35199: SMC Functional Fail Safe: SDI - naruszenia bezpiecznego kierunku
+• 35200: SMC Functional Fail Safe: SDI - naruszenie kierunku dodatniego
+• 35201: SMC Functional Fail Safe: SDI - naruszenie kierunku ujemnego
+• 35202: SMC Functional Fail Safe: SLI - Naruszenie ograniczenia prędkości zatrzymania
+• 35203: SMC Functional Fail Safe: SLI - Naruszenie okna pozycji (przyrosty)
+• 35204: SMC Functional Fail Safe: naruszenie faktycznego ograniczenia prędkości
+• 35205: SMC Functional Fail Safe: Naruszenie rampy hamowania
+• 35206: SMC Functional Fail Safe: SMS - naruszenie ograniczenia prędkości
+• 35207: SMC Functional Fail Safe: SOS - naruszenie ograniczenia prędkości
+• 35208: SMC Functional Fail Safe: SS2 - Naruszenie ograniczenia prędkości
+• 35209: SMC Functional Fail Safe: SLS1 - Naruszenie ograniczenia prędkości
+• 35210: SMC Functional Fail Safe: SLS2 - Naruszenie ograniczenia prędkości
+• 35211: SMC Functional Fail Safe: SLS3 - Naruszenie ograniczenia prędkości
+• 35212: SMC Functional Fail Safe: SLS4 - Naruszenie ograniczenia prędkości
+• 35213: SMC Functional Fail Safe: Żywy test ustalonej pozycji nie został wykonany
+• 35214: SMC Functional Fail Safe: Ostrzeżenie na wyjściu nie zostało potwierdzone
+• 35215: SMC Functional Fail Safe: żywy test - limit czasu monitorowania
+• 35216: SMC Functional Fail Safe: SMP - Przekroczono limit czasu bazowania
+• 35217: SMC Functional Fail Safe: SMP - Naruszenie rampy hamowania
+• 35218: SMC Functional Fail Safe: SLP - Naruszenie rampy hamowania
+• 35219: SMC Functional Fail Safe: SMP - Naruszenie dolnej granicy SMP
+• 35220: SMC Functional Fail Safe: SMP - Naruszenie górnej granicy SMP
+• 35221: SMC Functional Fail Safe: SLP - Naruszenie dolnej granicy SLP
+• 35222: SMC Functional Fail Safe: SLP - Naruszenie górnej granicy SLP
+• 35223: SMC Functional Fail Safe: SMP - ruch w neg. kierunek poza limitem SMP
+• 35224: SMC Functional Fail Safe: SMP - ruch w poz. kierunek poza limitem SMP
+• 35225: SMC Functional Fail Safe: zażądano SLP, oś nie jest jeszcze bazowana
+• 35226: SMC Functional Fail Safe: SMP, SLP - Błąd wewnętrzny
+• 35227: SMC Functional Fail Safe: SMP, SLP - INT32 przepełnienie pozycji absolutnej
+• 35228: SMC Functional Fail Safe: Homing - Upłynął limit czasu
+• 35229: SMC Functional Fail Safe: Homing - Naruszona tolerancja prędkości zatrzymania
+• 35230: SMC Functional Fail Safe: puls referencyjny bazowania - maks. przekroczona prędkość wyzwalania
+• 35231: SMC Functional Fail Safe: Homing - ruch nieprawidłowy
+• 35232: SMC Functional Fail Safe: przesunięcie bazowania - pozycja poza zakresem INT32
+• 35233: SMC Functional Fail Safe: przesunięcie bazowania - naruszenie bezpiecznego zakresu enkodera
+• 35234: SMC: Niezgodność enkodera - Zmieniono długość danych konfiguracyjnych enkodera
+• 35235: SMC: Niezgodność enkodera - Zmieniono numer seryjny enkodera
+• 35236: SMC: Niezgodność enkodera - Wersja zmieniona lub nie zapisano danych enkodera
+• 35237: SMC: Niezgodność enkodera - rejestr rejestru konfiguracji EnDat został zmieniony
+• 35238: SMC: Enkoder - Rejestr błędów stanu EnDat Master jest ustawiony
+• 35239: SMC Functional Fail Safe: Homing nie powiodło się
+• 35240: SMC Functional Fail Safe: naruszenie funkcji bezpieczeństwa
+• 35241: SMC Functional Fail Safe: Blok funkcyjny przełączony z powrotem w stan bezczynności
+• 35243: SMC Functional Fail Safe: Bezpieczne wyjście - Stan testowy się zmienił
+• 35244: SMC: Enkoder - Odebrana pozycja nie jest ważna
+• 35245: SMC: Wykryto niezgodność enkodera
+• 35246: SMC: Enkoder - Błąd inicjalizacji
+• 35247: SMC: Enkoder - Informacje debugowania
+• 35248: SMC: Błąd wewnętrzny, zestaw Lockbit
+• 35249: SMC: Enkoder - SafeSpeed przekroczył zakres INT16
+• 35250: SMC: Enkoder - Rejestr błędów enkodera EnDat Master jest ustawiony
+• 35251: SMC: Przekroczono limit błędu prędkości
+• 35252: SMC: Przekroczono limit błędu opóźnienia pozycji
+• 35253: SMC: Enkoder - Błąd zaokrąglenia z powodu parametryzacji
+• 35254: SMC: Enkoder - Zbyt duża długość fizycznego układu odniesienia
+• 35255: SMC Fail Safe: Enkoder - Przekroczono limit przyspieszenia
+• 36001: parametr ograniczony do prawidłowego zakresu
+• 36002: Całkowity czas dla regulatora pętli pozycji ograniczony do czasu prognozowania
+• 37101: Obliczona odległość kompensacji na osi slave ograniczona do maksimum
+• 37102: Obliczona odległość kompensacji na osi slave ograniczona do minimum
+• 37103: wyzwalacz Slave poza oknem
+• 37104: Brak wyzwalacza Slave
+• 37105: Wyzwalacz kompensacji głównej poza oknem
+• 37107: Rzeczywista / ustawiona pozycja przemieszczenia jest zbyt wysoka podczas „włączenia sterownika”
+• 37108: Obliczona odległość kompensacji osi głównej ograniczona do minimum
+• 37109: Spust główny poza oknem
+• 37110: Pozycja główna na początku wyższa niż pierwsza pozycja spustowa
+• 37111: Dane profilu krzywki: Różnica między wartością wielomianową y (xn) a okresem podrzędnym
+• 37112: Wielomian w danych profilu krzywki przekracza wartość graniczną
+• 37113: Koła zębate kompensujące profil krzywki: Przekroczono wartości graniczne
+• 38000: Sterownik prądu: Prędkość silnika jest zbyt wysoka podczas włączania
+• 38001: Ogranicznik momentu obrotowego: Zbyt wysoka wartość graniczna
+• 38003: Hamulec trzymający silnik: Testowany moment obrotowy był ograniczony
+• 38004: Hamulec trzymający silnik: Sprawdzić moment obrotowy mniejszy niż moment obciążenia
+• 38005: Test silnika: Prędkość jest za wysoka podczas włączania
+• 38006: Regulator prądu: Przekroczono dopuszczalne wartości kompensacji prądu
+• 38007: Administracja systemu: BsLoader aktywowany: Zworka podłączona
+• 38008: Odpowietrznik: brak przepływu prądu
+• 38100: Test pamięci: błąd odczytu
+• 38101: Test pamięci: błąd zapisu
+• 39001: Enkoder: aktywna korekcja pozycji
+• 39002: Resolver: Przekroczono limit prędkości dla rozdzielczości 14 bitów
+• 39003: Enkoder EnDat: Bit alarmu jest ustawiony
+• 39004: Enkoder EnDat: Bit alarmu - Awaria oświetlenia
+• 39005: Enkoder EnDat: bit alarmu - Zbyt mała amplituda sygnału
+• 39006: Enkoder EnDat: bit alarmu - Wartość pozycji zawiera błąd
+• 39007: Enkoder EnDat: bit alarmu - przepięcie
+• 39008: Enkoder EnDat: bit alarmu - za niskie napięcie
+• 39009: Enkoder EnDat: bit alarmu - przetężenie
+• 39010: Enkoder EnDat: bit alarmu - wymagana wymiana baterii
+• 39011: Enkoder EnDat: bit ostrzegawczy - zbyt wysoka częstotliwość
+• 39012: Enkoder EnDat: bit ostrzegawczy - temperatura za wysoka
+• 39013: Enkoder EnDat: bit ostrzegawczy - Osiągnięta rezerwa oświetlenia
+• 39014: Enkoder EnDat: bit ostrzegawczy - Zbyt niski poziom naładowania akumulatora
+• 39016: Emulacja enkodera inkrementalnego: Zbyt wysoka częstotliwość
+• 39017: Enkoder: błąd CRC podczas odczytu pozycji
+• 39018: Monitorowanie impulsu odniesienia: Wadliwa pozycja, rozdzielczość lub impuls odniesienia
+• 39019: Interfejs enkodera szeregowego: Błąd zatrzymania bitu
+• 39020: Interfejs enkodera szeregowego: Odbieranie danych przekroczone
+• 39021: Interfejs enkodera szeregowego: Błąd wysyłania danych
+• 39022: Enkoder EnDat: Ustawiony bit ostrzegawczy
+• 39023: Enkoder EnDat: błąd CRC podczas odczytu dodatkowych informacji EnDat2.2
+• 39024: Enkoder EnDat: źródła błędów statusu pracy: M WSZYSTKIE Wyłączenie
+• 39025: Enkoder EnDat: źródła błędów statusu roboczego: M Przepełnienie / niedopełnienie
+• 39026: Enkoder EnDat: błąd typu 3 podczas odczytu dodatkowych informacji EnDat2.2
+• 39027: Emulacja enkodera: awaria zasilania 5V
+• 39028: Enkoder: błąd wieloobrotowy
+• 39029: Enkoder: Zbyt niski poziom naładowania baterii
+• 39030: Enkoder: Ustawiony bit ostrzegawczy
+• 39031: Enkoder: Błąd przekroczenia limitu czasu podczas przesyłania parametru
+• 39032: Enkoder EnDat: źródła błędów statusu pracy: Oświetlenie
+• 39033: Enkoder EnDat: źródła błędów statusu roboczego: amplituda sygnału
+• 39034: Enkoder EnDat: źródła błędów statusu pracy: S Poz. 1
+• 39035: Enkoder EnDat: Źródła błędów stanu pracy: Przepięcie
+• 39036: Enkoder EnDat: źródła błędów statusu pracy: Zbyt niskie napięcie
+• 39037: Enkoder EnDat: źródła błędów statusu pracy: przetężenie
+• 39038: Enkoder EnDat: źródła błędów statusu pracy: Przekroczona temperatura
+• 39039: Enkoder EnDat: źródła błędów statusu pracy: S Poz
+• 39040: Enkoder EnDat: Źródła błędów stanu pracy: System
+• 39041: Enkoder EnDat: źródła błędów statusu pracy: S WYŁĄCZONE
+• 39042: Enkoder EnDat: źródła błędów statusu pracy: M Poz. 1
+• 39043: Enkoder EnDat: źródła błędów statusu pracy: M Poz 2
+• 39044: Enkoder EnDat: źródła błędów statusu pracy: M System
+• 39045: Enkoder EnDat: źródła błędów statusu pracy: bateria M.
+• 39301: Cyfrowe we / wy: awaria zasilania 24 V.
+• 39302: Cyfrowe we / wy 1-4: Diagnozuj bit aktywny (prąd, zasilanie 24 V)
+• 39303: Cyfrowe we / wy 5-8: Aktywna diagnoza bitu (prąd, zasilanie 24 V)
+• 39305: Cyfrowe We / Wy 10: Diagnozuj bit aktywny (prąd, temperatura)
+• 39306: Cyfrowe we / wy 9: Diagnozuj bit aktywny (prąd, temperatura)
+• 39307: Cyfrowe we / wy: wyjścia dezaktywowane przez maskę wyjściową po błędzie sieci
+• 40000: Identyfikator parametru tylko do testów
+• 41001: Czujnik temperatury radiatora: przegrzanie
+• 41011: Czujnik temperatury (silnik | dławik | zewnętrzny): przegrzanie
+• 41031: Model temperatury złącza: Przegrzanie
+• 41041: Model temperatury odpowietrzacza: Nadmierna temperatura
+• 41051: Prąd szczytowy ACOPOS: Przeciążenie
+• 41061: prąd ciągły ACOPOS: przeciążenie
+• 41070: Model temperatury silnika: Nadmierna temperatura
+• 41075: Ciągła moc ACOPOS: Przeciążenie
+• 41078: Stopień mocy: Czujnik temperatury 1: Przegrzanie
+• 41080: Rezystor ładowania: Nadmierna temperatura
+• 41081: Model temperatury stopnia mocy: Nadmierna temperatura
+• 41083: Stopień mocy: czujnik temperatury 2: Przegrzanie
+• 41085: Stopień mocy: Czujnik temperatury 3: Przegrzanie
+• 41087: Stopień mocy: czujnik temperatury 4: Przegrzanie
+• 41089: Czujnik temperatury enkodera silnika: Nadmierna temperatura
+• 64002: Opóźnienie przed resetowaniem SW (sieć z rosnącymi numerami węzłów?)
+• 64003: Opóźnienie przed uruchomieniem systemu NC (sieć z rosnącymi numerami węzłów?)
+• 64004: Z opóźnieniem można wprowadzić następujący błąd rozruchu
+• 64005: Limit czasu dla włączenia parametru po uruchomieniu systemu operacyjnego
+• 64006: Dysk nie został zsynchronizowany z urządzeniem głównym sieci
+• 64007: Limit czasu dla umożliwienia acyklicznej komunikacji sieciowej
+• 64008: Limit czasu dla umożliwienia cyklicznej komunikacji sieciowej
+• 64009: Acp10cfg zawiera interfejs POWERLINK, dla którego nie zdefiniowano żadnej osi
+• 64010: Wersja testowa oprogramowania NC (okres ważności w Loggerze)
+• 64011: Limit czasu na zakończenie inicjalizacji enkodera
+• 64012: acp10sys nie zawiera systemu operacyjnego dla tego typu sprzętu ACOPOS
+• 64500: Aktywny ogranicznik prędkości dodatniej
+• 64501: Aktywny ogranicznik prędkości ujemnej
+• 64502: Aktywny ogranicznik momentu przyspieszenia w kierunku dodatnim
+• 64503: Ogranicznik momentu obrotowego przyspieszenia ujemnego aktywny
+• 64504: Aktywny ogranicznik momentu zwalniania kierunku dodatniego
+• 64505: Aktywny ogranicznik momentu ujemnego zwalniania
+• 64506: Aktywny ogranicznik odzysku (zbyt duże opóźnienie)
+• 65535: Błąd odpowiedzi
+

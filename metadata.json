@@ -1,0 +1,6 @@
+{
+  "name": "ACOPOS Diagnosta",
+  "description": "Aplikacja diagnostyczna do szybkiego wyszukiwania kodów błędów i kroków naprawczych serwonapędów B&R ACOPOS / Wittmann w języku polskim.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

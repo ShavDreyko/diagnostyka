@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">ACOPOS Diagnosta</string>
+
+    <!-- Navigation -->
+    <string name="nav_diagnose">Diagnoza</string>
+    <string name="nav_catalog">Katalog</string>
+    <string name="nav_saved">Zapisane</string>
+
+    <!-- Top bar & headers -->
+    <string name="subtitle_brand">SERWONAPĘDY B&amp;R ACOPOS / WITTMANN</string>
+    <string name="toggle_theme_cd">Przełącz motyw jasny lub ciemny</string>
+    <string name="back_cd">Wróć</string>
+
+    <!-- Search & input -->
+    <string name="search_code_placeholder">Wpisz kod alarmu (np. 7222, 6028, 4007)…</string>
+    <string name="search_text_placeholder">Szukaj po kodzie lub objawie (np. hamulec, enkoder)…</string>
+    <string name="clear_search_cd">Wyczyść pole wyszukiwania</string>
+    <string name="mode_numeric">123 Kod</string>
+    <string name="mode_text">ABC Tekst</string>
+    <string name="diagnose_action">Diagnozuj</string>
+    <string name="exact_match_badge">DOKŁADNE DOPASOWANIE</string>
+    <string name="open_diagnostics">Otwórz kartę diagnostyczną</string>
+
+    <!-- Quick sections -->
+    <string name="section_common_faults">Najczęstsze alarmy serwisowe</string>
+    <string name="section_recent">Ostatnio diagnozowane</string>
+    <string name="section_categories">Kategorie układów ACOPOS</string>
+    <string name="section_search_results">Wyniki wyszukiwania (%1$d)</string>
+    <string name="no_results_title">Nie znaleziono kodu „%1$s”</string>
+    <string name="no_results_hint">Sprawdź numer błędu na panelu sterowania lub wyszukaj po opisie objawu (np. „szyna DC”, „enkoder”, „przegrzanie”).</string>
+
+    <!-- Detail screen -->
+    <string name="detail_error_code_prefix">ALARM</string>
+    <string name="detail_official_message">Komunikat sterownika (PL)</string>
+    <string name="detail_original_en">Oryginał (EN)</string>
+    <string name="detail_info_param">Parametr diagnostyczny (Info)</string>
+    <string name="detail_problem_description">Opis problemu</string>
+    <string name="detail_drive_reaction">Reakcja serwonapędu</string>
+    <string name="detail_possible_causes">Najczęstsze przyczyny</string>
+    <string name="detail_repair_steps">Sugerowane kroki naprawcze</string>
+    <string name="detail_steps_progress">Sprawdzono %1$d z %2$d kroków</string>
+    <string name="detail_reset_checklist">Resetuj</string>
+    <string name="detail_related_codes">Powiązane kody alarmów</string>
+    <string name="detail_copy_report">Kopiuj raport</string>
+    <string name="detail_copied_toast">Skopiowano raport diagnostyczny do schowka</string>
+    <string name="detail_bookmark_add">Zapisz kod</string>
+    <string name="detail_bookmark_remove">Usuń z zapisanych</string>
+    <string name="detail_safety_note">Przed pracami przy połączeniach X5, szynie DC i hamulcu odłącz zasilanie i odczekaj na rozładowanie kondensatorów.</string>
+
+    <!-- Catalog & Saved -->
+    <string name="catalog_title">Katalog kodów ACOPOS</string>
+    <string name="catalog_count_format">%1$d kodów</string>
+    <string name="catalog_all_categories">Wszystkie</string>
+    <string name="catalog_filter_all">Wszystkie poziomy</string>
+    <string name="saved_title">Zapisane i historia</string>
+    <string name="saved_bookmarks_section">Zakładki serwisowe</string>
+    <string name="saved_history_section">Historia wyszukiwań</string>
+    <string name="saved_clear_history">Wyczyść historię</string>
+    <string name="saved_empty_bookmarks">Brak zapisanych kodów alarmów. Oznacz często występujące błędy ikoną zakładki na karcie diagnostycznej.</string>
+    <string name="saved_empty_history">Brak historii diagnostycznej. Wpisz pierwszy kod błędu w zakładce Diagnoza.</string>
+</resources>

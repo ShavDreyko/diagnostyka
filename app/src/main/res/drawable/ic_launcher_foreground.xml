@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bold industrial hexagonal servo-module housing centered in 66dp safe zone -->
+    <path
+        android:fillColor="#FFFF6B00"
+        android:pathData="M54,23 L79,37.5 L79,66.5 L54,81 L29,66.5 L29,37.5 Z" />
+    <!-- Inner dark console bezel -->
+    <path
+        android:fillColor="#FF111822"
+        android:pathData="M54,29 L73.5,40.3 L73.5,63.7 L54,75 L34.5,63.7 L34.5,40.3 Z" />
+    <!-- Diagnostic oscilloscope / servo current pulse waveform -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,54 L43,54 L47.5,41 L53.5,64 L59,46 L63.5,54 L74,54 L74,58.5 L60.8,58.5 L58.5,54.2 L53,71.5 L47,49.5 L45.4,58.5 L34,58.5 Z" />
+    <!-- Status LED indicator dot -->
+    <path
+        android:fillColor="#FF38BDF8"
+        android:pathData="M54,34.5 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>
