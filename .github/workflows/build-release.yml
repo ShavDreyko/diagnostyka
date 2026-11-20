@@ -102,20 +102,22 @@ jobs:
         run: python -m unittest desktop-windows/test_acopos_desktop.py
 
       - name: Build single-file Windows Portable EXE
+        shell: pwsh
         run: |
+          $root = (Get-Location).Path
           python -m PyInstaller `
             --noconfirm `
             --clean `
             --onefile `
             --windowed `
             --name "ACOPOS-Diagnosta-Portable" `
-            --icon "desktop-windows/acopos_icon.ico" `
-            --add-data "public/assets/aistudio;assets" `
-            --add-data "desktop-windows/acopos_icon.ico;." `
-            --distpath "artifacts-windows" `
-            --workpath "desktop-windows/build" `
-            --specpath "desktop-windows" `
-            "desktop-windows/acopos_diagnosta.py"
+            --icon "$root\desktop-windows\acopos_icon.ico" `
+            --add-data "$root\public\assets\aistudio;assets" `
+            --add-data "$root\desktop-windows\acopos_icon.ico;." `
+            --distpath "$root\artifacts-windows" `
+            --workpath "$root\desktop-windows\build" `
+            --specpath "$root\desktop-windows" `
+            "$root\desktop-windows\acopos_diagnosta.py"
 
       - name: Package Windows Portable ZIP
         shell: pwsh

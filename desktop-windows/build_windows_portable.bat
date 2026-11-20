@@ -33,13 +33,13 @@ python -m PyInstaller ^
   --onefile ^
   --windowed ^
   --name "ACOPOS-Diagnosta-Portable" ^
-  --icon "desktop-windows/acopos_icon.ico" ^
-  --add-data "public/assets/aistudio;assets" ^
-  --add-data "desktop-windows/acopos_icon.ico;." ^
-  --distpath "desktop-windows/dist" ^
-  --workpath "desktop-windows/build" ^
-  --specpath "desktop-windows" ^
-  "desktop-windows/acopos_diagnosta.py"
+  --icon "%CD%\desktop-windows\acopos_icon.ico" ^
+  --add-data "%CD%\public\assets\aistudio;assets" ^
+  --add-data "%CD%\desktop-windows\acopos_icon.ico;." ^
+  --distpath "%CD%\desktop-windows\dist" ^
+  --workpath "%CD%\desktop-windows\build" ^
+  --specpath "%CD%\desktop-windows" ^
+  "%CD%\desktop-windows\acopos_diagnosta.py"
 
 if errorlevel 1 (
     echo BLAD podczas budowania pliku EXE.
