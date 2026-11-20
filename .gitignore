@@ -16,3 +16,14 @@
 local.properties
 .env
 debug.keystore
+my-upload-key.jks
+
+# Windows Portable build artifacts
+desktop-windows/build/
+desktop-windows/dist/
+desktop-windows/__pycache__/
+desktop-windows/*.spec
+desktop-windows/acopos_data.json
+artifacts-android/
+artifacts-windows/
+
